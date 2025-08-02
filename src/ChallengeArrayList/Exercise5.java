@@ -1,4 +1,4 @@
-package ChallengeArrayList.Ex5;
+package ChallengeArrayList;
 // 5. Write a Java program to update specific array element by given element.
 
 import java.util.ArrayList;
