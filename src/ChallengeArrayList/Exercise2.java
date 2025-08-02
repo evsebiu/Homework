@@ -1,4 +1,4 @@
-package ChallengeArrayList.Ex2;
+package ChallengeArrayList;
 // 2. Write a Java program to iterate through all elements in a array list.
 
 import java.util.ArrayList;
