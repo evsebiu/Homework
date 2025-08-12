@@ -46,7 +46,7 @@ class Song{
         if (this == obj ) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Song otherSong = (Song) obj;
-        return Objects.equals(title, otherSong.title) && Objects.equals(artist, otherSong.artist);;
+        return Objects.equals(title, otherSong.title) && Objects.equals(artist, otherSong.artist);
     }
     @Override
     public int hashCode(){
