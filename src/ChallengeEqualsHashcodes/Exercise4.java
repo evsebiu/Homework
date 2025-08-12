@@ -27,9 +27,9 @@ class Song{
     private String artist;
     private String length; // format : mm:ss
 
-    public Song(String title, String arist, String length){
+    public Song(String title, String artist, String length){
         this.title=title;
-        this.artist=arist;
+        this.artist=artist;
         this.length=length;
     }
     public String getTitle(){
