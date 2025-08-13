@@ -21,7 +21,7 @@ public class Exercise5 {
     }
 }
 
-class Product{
+class Product {
     private String name;
     private int price;
     private int id;
@@ -32,16 +32,14 @@ class Product{
         this.id = id;
     }
     @Override
-    public boolean equals(Object obj){
+    public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Product newProduct = (Product) obj;
-        return Objects.equals(id, newProduct.id);
+        return this.id == newProduct.id;
     }
     @Override
     public int hashCode(){
-        return Objects.hashCode(id);
+        return Integer.hashCode(id);
     }
-
-
 }
