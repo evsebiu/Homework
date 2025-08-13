@@ -41,14 +41,13 @@ class Cache{
     }
     @Override
     public int hashCode(){
-        return Objects.hashCode(id);
+        return Integer.hashCode(id);
     }
     @Override
     public boolean equals (Object obj){
         if (this == obj) return true;
         if (obj == null | getClass() != obj.getClass()) return false;
         Cache otherCache = (Cache) obj;
-
         return id == otherCache.id;
     }
 
